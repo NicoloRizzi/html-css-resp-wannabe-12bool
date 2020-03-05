@@ -1,0 +1,24 @@
+/*RESET GENERALE */
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/*CONTAINER DELLA PAGINA */
+.container {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+/*CLEARFIX */
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+img {
+  width: 100px;
+}
